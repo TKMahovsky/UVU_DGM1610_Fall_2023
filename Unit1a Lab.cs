@@ -11,7 +11,8 @@ public class Program
 		luxuryCar = new Car();
 		nosBoost = new Boost();
 		sportsCar = new Car();
-		
+
+		// These 2 lines are to show the boost amount in mph
 		Console.WriteLine("Boost amount is: " + nosBoost.speedIncrease + " mph.");
 		Console.WriteLine("");
 		
@@ -58,7 +59,6 @@ public class Car
 	public int luxuryTopSpeed = Convert.ToInt32(Console.ReadLine());
 	public string sportsCarName = "Mustang";
 	public int sportTopSpeed = Convert.ToInt32(Console.ReadLine());
-	
 }
 
 public class Boost
@@ -67,5 +67,4 @@ public class Boost
 	public string boostName = "Nos";
 	public int speedIncrease = 20;
 	public float boostDuration = 12.5f;
-	
 }

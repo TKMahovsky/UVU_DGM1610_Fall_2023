@@ -2,13 +2,16 @@ using System;
 
 public class Program
 {
-    public static void Main()
+    public void Main()
     {
+            // Prompt user to input number
     		Console.WriteLine("Enter your grade percentage");
     		string userInput = Console.ReadLine();
-    		
+
+            // Store user input in a variable
     		int grade = Convert.ToInt32(userInput);
-    		
+
+            // if/else-if/else block that outputs the correct letter grade
     		if (grade >= 90 && grade <= 100)
     		{
     			Console.WriteLine("You got an A!");

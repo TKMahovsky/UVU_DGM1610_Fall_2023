@@ -1,1 +1,20 @@
 using System;
+
+public class Program
+{
+    public void Main()
+    {
+        Console.WriteLine("What is the current temperature outside (in Celsius)?");
+        string userInput = Console.ReadLine();
+        
+        if (Convert.ToInt32(userInput) > 30)
+        {
+          Console.WriteLine("Stay hydrated and avoid staying in the sun for too long!");
+        }
+        
+        else
+        {
+          Console.WriteLine("Enjoy the pleasant weather!");
+        }
+    }
+}

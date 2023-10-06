@@ -6,7 +6,7 @@ public class DestroyOutofBounds : MonoBehaviour
 {
 
     public float topBounds = 14.0f;
-    public float bottomBounds = -10.0f;
+    public float bottomBounds = -11.0f;
     void Awake()
     {
         //Time.timeScale = 1;

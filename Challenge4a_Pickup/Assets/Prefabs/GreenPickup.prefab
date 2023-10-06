@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 8757450104511537872}
   - component: {fileID: 8757450104511537868}
   - component: {fileID: 8757450104511537869}
+  - component: {fileID: -5986279828511890213}
   m_Layer: 0
   m_Name: GreenPickup
   m_TagString: Untagged
@@ -125,4 +126,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   topBounds: 14
-  bottomBounds: -10
+  bottomBounds: -11
+--- !u!114 &-5986279828511890213
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8757450104511537879}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed8886c69352342eb85a8d28399f7ec7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerTag: Player
+  greenItem: 0

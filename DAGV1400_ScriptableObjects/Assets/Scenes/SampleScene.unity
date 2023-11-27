@@ -524,6 +524,7 @@ GameObject:
   - component: {fileID: 454406477}
   - component: {fileID: 454406476}
   - component: {fileID: 454406481}
+  - component: {fileID: 454406482}
   m_Layer: 0
   m_Name: AmmoPickup
   m_TagString: Untagged
@@ -626,6 +627,45 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &454406482
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 454406475}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c587e474d9fa446fbb7e75806680c5a2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerEnterEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: 158d5e849d642403d9916d0358248a4b, type: 2}
+        m_TargetAssemblyTypeName: Ammo.IntData, Assembly-CSharp
+        m_MethodName: UpdateValue
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 5
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1266341650}
+        m_TargetAssemblyTypeName: Ammo.AmmoLabel, Assembly-CSharp
+        m_MethodName: UpdateLabel
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -976,11 +1016,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1266341645}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f1adbd755cafa407eb35613ef71cc9de, type: 3}
+  m_Script: {fileID: 11500000, guid: e897e94deb7ef42b98262003cc2ee0ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  label: {fileID: 0}
-  dataObj: {fileID: 0}
+  labelInt: {fileID: 0}
+  dataObjInt: {fileID: 11400000, guid: 158d5e849d642403d9916d0358248a4b, type: 2}
 --- !u!1 &1544356629
 GameObject:
   m_ObjectHideFlags: 0

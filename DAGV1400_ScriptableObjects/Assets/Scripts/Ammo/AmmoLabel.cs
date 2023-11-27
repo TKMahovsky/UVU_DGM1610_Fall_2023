@@ -4,21 +4,23 @@ using UnityEngine;
 using UnityEngine.UI;
 
 
-
-[RequireComponent(typeof(Text))]
-public class TextLabelBehavior : MonoBehaviour
+namespace Ammo
 {
-    public Text labelInt;
-    public IntData dataObjInt;
-    
-    private void Start()
+    [RequireComponent(typeof(Text))]
+    public class AmmoLabel : MonoBehaviour
     {
-        labelInt = GetComponent<Text>();
-        UpdateLabel();
-    }
+        public Text labelInt;
+        public IntData dataObjInt;
 
-    public void UpdateLabel()
-    {
-        labelInt.text = dataObjInt.value.ToString(CultureInfo.InvariantCulture);
+        private void Start()
+        {
+            labelInt = GetComponent<Text>();
+            UpdateLabel();
+        }
+
+        public void UpdateLabel()
+        {
+            labelInt.text = dataObjInt.value.ToString(CultureInfo.InvariantCulture);
+        }
     }
 }

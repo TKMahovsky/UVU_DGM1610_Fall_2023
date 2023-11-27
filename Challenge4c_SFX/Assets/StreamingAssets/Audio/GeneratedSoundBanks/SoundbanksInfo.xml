@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
+	<RootPaths>
+		<ProjectRoot>../../../../Challenge4c_SFX_WwiseProject</ProjectRoot>
+		<SourceFilesRoot>../../../../Challenge4c_SFX_WwiseProject/.cache/Mac</SourceFilesRoot>
+		<SoundBanksRoot>.</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>../../../../Challenge4c_SFX_WwiseProject/GeneratedSoundBanks/Mac</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{D326F752-7CA2-0A14-FDB1-63ECE89D0199}">
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<Plugins>
+				<AudioDevices>
+					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
+				</AudioDevices>
+			</Plugins>
+			<Busses>
+				<Bus Id="3803692087" Name="Master Audio Bus"/>
+			</Busses>
+		</SoundBank>
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{CB44636E-1EDC-FFF4-16AC-05138FB91E7D}">
+			<ShortName>Main</ShortName>
+			<Path>Main.bnk</Path>
+			<Media>
+				<File Id="925908927" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>164745-Hypnagog-70-Am-Synth.wav</ShortName>
+					<CachePath>SFX/164745-Hypnagog-70-Am-Synth_818F3B66.wem</CachePath>
+				</File>
+				<File Id="1034193192" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>256757-Future_Weapons_2_-Blaster_-simple-laser-shot-01.wav</ShortName>
+					<CachePath>SFX/256757-Future_Weapons_2_-Blaster_-simple-laser-shot-01_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3860634315" Name="Play_LaserBlast" DurationType="OneShot" DurationMin="0.88560414" DurationMax="0.88560414">
+					<MediaRefs>
+						<MediaRef Id="1034193192"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2932040671" Name="Play_Music" DurationType="OneShot" DurationMin="13.714286" DurationMax="13.714286">
+					<MediaRefs>
+						<MediaRef Id="925908927"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{40CBDBD0-18EC-3916-B8B7-8512A349BB8F}</FileHash>
+</SoundBanksInfo>

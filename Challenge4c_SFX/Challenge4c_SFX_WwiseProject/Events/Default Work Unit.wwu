@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{080F2860-8F24-4F33-A46A-A626C27EC7BD}" SchemaVersion="119">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{080F2860-8F24-4F33-A46A-A626C27EC7BD}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_LaserBlast" ID="{5973516B-6B79-45B0-9F0A-C9A64B470020}">
+					<ChildrenList>
+						<Action Name="" ID="{F09C229D-2B9A-41FB-8448-C0E65367EB6A}" ShortID="175007420">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="LaserBlast" ID="{FEFF4756-0425-4F31-BF62-646EEE605F18}" WorkUnitID="{EF34137F-1A89-45F2-99FA-36047CAABE4F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Music" ID="{16CA171F-3A7E-4FB5-A230-EEF43470FB01}">
+					<ChildrenList>
+						<Action Name="" ID="{FC43C8CC-B08B-45A5-B3CF-B97B52964D00}" ShortID="266788280">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Music" ID="{0BF89CE6-994E-49D1-BEAA-D63A7FBFA6A1}" WorkUnitID="{EF34137F-1A89-45F2-99FA-36047CAABE4F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_UIStart" ID="{74DBCDF0-A3E6-45E8-9A38-AA4C734B200E}">
+					<ChildrenList>
+						<Action Name="" ID="{B8EF9A25-71B5-428E-AA8C-6B44C13284F0}" ShortID="180376009">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UIStart" ID="{F5814DD9-1EBF-46C5-832A-2E8206174438}" WorkUnitID="{EF34137F-1A89-45F2-99FA-36047CAABE4F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_UIQuit" ID="{8D059A7B-656B-4F56-B220-1AC0AEB9286D}">
+					<ChildrenList>
+						<Action Name="" ID="{57522234-EAEE-49F5-A2B8-EE50A95864D6}" ShortID="1026270843">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UIQuit" ID="{2756AB2D-5691-4B71-B23A-A5F30CE05376}" WorkUnitID="{EF34137F-1A89-45F2-99FA-36047CAABE4F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Explosion" ID="{314917F9-26B7-4ADF-A5C2-973C2A1B2D5F}">
+					<ChildrenList>
+						<Action Name="" ID="{1FA4CF79-3D33-4E17-803A-B4EA036FDB15}" ShortID="983823689">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ExplosionBlast" ID="{0907811C-8E8A-458C-A6F4-4C4F5A192CAB}" WorkUnitID="{EF34137F-1A89-45F2-99FA-36047CAABE4F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_PickupItem" ID="{DDC412AD-F85C-4F2C-87EF-2E2707F85915}">
+					<ChildrenList>
+						<Action Name="" ID="{F80D7E2B-D34D-4528-B8B5-6F6664188979}" ShortID="935727208">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="PickupItem" ID="{4AFEEF2A-B6DF-4039-9BF9-D14F1D562970}" WorkUnitID="{EF34137F-1A89-45F2-99FA-36047CAABE4F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_LoseGame" ID="{ADBCDF62-E04C-47D8-8C66-D60F90AFDEFC}">
+					<ChildrenList>
+						<Action Name="" ID="{9F982771-1165-41C3-95CF-5A83FD850425}" ShortID="282615162">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="LoseGame" ID="{17CA9A72-68F5-42D1-8FA4-8BF02AA95D66}" WorkUnitID="{EF34137F-1A89-45F2-99FA-36047CAABE4F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectInfo>
+	<Project Name="Challenge4c_SFX_WwiseProject" GUID="{9A26DED9-1757-433E-80FD-F13AE427CCBD}" Generator="2023.1.0.8367"/>
+	<CacheRoot>../../../../Challenge4c_SFX_WwiseProject/.cache</CacheRoot>
+	<Platforms>
+		<Platform Name="Mac" GUID="{13663BFF-8B3F-4660-9E11-91C2237A3097}" BasePlatform="Mac" BasePlatformGUID="{9C6217D5-DD11-4795-87C1-6CE02853C540}" Path="Mac"/>
+		<Platform Name="Windows" GUID="{1FA18612-534E-4281-AEBE-8DC9C2547CC9}" BasePlatform="Windows" BasePlatformGUID="{6E0CB257-C6C8-4C5C-8366-2740DFC441EB}" Path="Windows"/>
+	</Platforms>
+	<Languages>
+		<Language Name="English(US)" Id="684519430" GUID="{1C18A79B-DC8C-47AC-801B-D90C54E6734D}" Default="true" UseAsStandIn="true"/>
+	</Languages>
+	<FileHash>{1C43EAA8-23CD-20D3-1CFD-8AD74410CDF2}</FileHash>
+</ProjectInfo>

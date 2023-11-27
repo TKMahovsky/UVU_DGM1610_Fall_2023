@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{F717407E-5AF3-43F2-A707-3BE0CAE81EE3}" SchemaVersion="119">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{F717407E-5AF3-43F2-A707-3BE0CAE81EE3}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Main" ID="{B3330DB2-41AB-4210-8F7C-7F31A3E02F25}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_LaserBlast" ID="{5973516B-6B79-45B0-9F0A-C9A64B470020}" WorkUnitID="{080F2860-8F24-4F33-A46A-A626C27EC7BD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_UIStart" ID="{74DBCDF0-A3E6-45E8-9A38-AA4C734B200E}" WorkUnitID="{080F2860-8F24-4F33-A46A-A626C27EC7BD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_LoseGame" ID="{ADBCDF62-E04C-47D8-8C66-D60F90AFDEFC}" WorkUnitID="{080F2860-8F24-4F33-A46A-A626C27EC7BD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Explosion" ID="{314917F9-26B7-4ADF-A5C2-973C2A1B2D5F}" WorkUnitID="{080F2860-8F24-4F33-A46A-A626C27EC7BD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_PickupItem" ID="{DDC412AD-F85C-4F2C-87EF-2E2707F85915}" WorkUnitID="{080F2860-8F24-4F33-A46A-A626C27EC7BD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_UIQuit" ID="{8D059A7B-656B-4F56-B220-1AC0AEB9286D}" WorkUnitID="{080F2860-8F24-4F33-A46A-A626C27EC7BD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Music" ID="{16CA171F-3A7E-4FB5-A230-EEF43470FB01}" WorkUnitID="{080F2860-8F24-4F33-A46A-A626C27EC7BD}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

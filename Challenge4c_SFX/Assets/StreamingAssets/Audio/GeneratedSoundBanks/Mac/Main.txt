@@ -1,0 +1,18 @@
+Event	ID	Name			Wwise Object Path	Notes
+	152276835	Play_PickupItem			\Default Work Unit\Play_PickupItem	
+	281154517	Play_UIQuit			\Default Work Unit\Play_UIQuit	
+	2384276567	Play_LoseGame			\Default Work Unit\Play_LoseGame	
+	2932040671	Play_Music			\Default Work Unit\Play_Music	
+	3646906820	Play_UIStart			\Default Work Unit\Play_UIStart	
+	3860634315	Play_LaserBlast			\Default Work Unit\Play_LaserBlast	
+	4030404899	Play_Explosion			\Default Work Unit\Play_Explosion	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	452989921	LoseGame	Y:\Documents\GitHub\UVU_DGM1610_Fall_2023\Challenge4c_SFX\Challenge4c_SFX_WwiseProject\.cache\Mac\SFX\497636-Mobile-Game-Special-Classic-Arcade-Power-Down-2_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\LoseGame		504096
+	576495239	PickupItem	Y:\Documents\GitHub\UVU_DGM1610_Fall_2023\Challenge4c_SFX\Challenge4c_SFX_WwiseProject\.cache\Mac\SFX\286945-TheLibrarybyMTC-UI-Woody-05_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\PickupItem		183360
+	700600252	ExplosionBlast	Y:\Documents\GitHub\UVU_DGM1610_Fall_2023\Challenge4c_SFX\Challenge4c_SFX_WwiseProject\.cache\Mac\SFX\252709-SW001-8-Bit-Games-041-Explosion_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\ExplosionBlast		73824
+	917611463	UIStart	Y:\Documents\GitHub\UVU_DGM1610_Fall_2023\Challenge4c_SFX\Challenge4c_SFX_WwiseProject\.cache\Mac\SFX\286944-TheLibrarybyMTC-UI-Woody-03_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\UIStart		48856
+	925908927	Music	Y:\Documents\GitHub\UVU_DGM1610_Fall_2023\Challenge4c_SFX\Challenge4c_SFX_WwiseProject\.cache\Mac\SFX\164745-Hypnagog-70-Am-Synth_FBC78EF0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music		2419296
+	945030603	UIQuit	Y:\Documents\GitHub\UVU_DGM1610_Fall_2023\Challenge4c_SFX\Challenge4c_SFX_WwiseProject\.cache\Mac\SFX\470058-Deny_Button_4_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\UIQuit		102696
+	1034193192	LaserBlast	Y:\Documents\GitHub\UVU_DGM1610_Fall_2023\Challenge4c_SFX\Challenge4c_SFX_WwiseProject\.cache\Mac\SFX\256757-Future_Weapons_2_-Blaster_-simple-laser-shot-01_AF1019C9.wem		\Actor-Mixer Hierarchy\Default Work Unit\LaserBlast		170132
+

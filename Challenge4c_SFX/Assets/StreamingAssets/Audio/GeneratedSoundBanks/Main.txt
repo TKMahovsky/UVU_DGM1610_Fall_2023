@@ -1,0 +1,8 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2932040671	Play_Music			\Default Work Unit\Play_Music	
+	3860634315	Play_LaserBlast			\Default Work Unit\Play_LaserBlast	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	925908927	Music	Y:\Documents\GitHub\UVU_DGM1610_Fall_2023\Challenge4c_SFX\Challenge4c_SFX_WwiseProject\.cache\Windows\SFX\164745-Hypnagog-70-Am-Synth_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music		2419296
+	1034193192	LaserBlast	Y:\Documents\GitHub\UVU_DGM1610_Fall_2023\Challenge4c_SFX\Challenge4c_SFX_WwiseProject\.cache\Windows\SFX\256757-Future_Weapons_2_-Blaster_-simple-laser-shot-01_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\LaserBlast		170132
+

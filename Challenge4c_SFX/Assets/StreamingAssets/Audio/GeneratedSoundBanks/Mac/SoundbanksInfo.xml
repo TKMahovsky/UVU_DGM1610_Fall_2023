@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
+	<RootPaths>
+		<ProjectRoot>../../../../../Challenge4c_SFX_WwiseProject</ProjectRoot>
+		<SourceFilesRoot>../../../../../Challenge4c_SFX_WwiseProject/.cache/Mac</SourceFilesRoot>
+		<SoundBanksRoot>.</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>../../../../../Challenge4c_SFX_WwiseProject/GeneratedSoundBanks/Mac</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{D326F752-7CA2-0A14-FDB1-63ECE89D0199}">
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<Plugins>
+				<AudioDevices>
+					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
+				</AudioDevices>
+			</Plugins>
+			<Busses>
+				<Bus Id="3803692087" Name="Master Audio Bus"/>
+			</Busses>
+		</SoundBank>
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{CF7CF1D5-F33E-A8F8-3831-AB26016D848C}">
+			<ShortName>Main</ShortName>
+			<Path>Main.bnk</Path>
+			<Media>
+				<File Id="452989921" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>497636-Mobile-Game-Special-Classic-Arcade-Power-Down-2.wav</ShortName>
+					<CachePath>SFX/497636-Mobile-Game-Special-Classic-Arcade-Power-Down-2_818F3B66.wem</CachePath>
+				</File>
+				<File Id="576495239" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>286945-TheLibrarybyMTC-UI-Woody-05.wav</ShortName>
+					<CachePath>SFX/286945-TheLibrarybyMTC-UI-Woody-05_818F3B66.wem</CachePath>
+				</File>
+				<File Id="700600252" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>252709-SW001-8-Bit-Games-041-Explosion.wav</ShortName>
+					<CachePath>SFX/252709-SW001-8-Bit-Games-041-Explosion_818F3B66.wem</CachePath>
+				</File>
+				<File Id="917611463" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>286944-TheLibrarybyMTC-UI-Woody-03.wav</ShortName>
+					<CachePath>SFX/286944-TheLibrarybyMTC-UI-Woody-03_818F3B66.wem</CachePath>
+				</File>
+				<File Id="925908927" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>164745-Hypnagog-70-Am-Synth.wav</ShortName>
+					<CachePath>SFX/164745-Hypnagog-70-Am-Synth_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="945030603" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>470058-Deny_Button_4.wav</ShortName>
+					<CachePath>SFX/470058-Deny_Button_4_818F3B66.wem</CachePath>
+				</File>
+				<File Id="1034193192" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>256757-Future_Weapons_2_-Blaster_-simple-laser-shot-01.wav</ShortName>
+					<CachePath>SFX/256757-Future_Weapons_2_-Blaster_-simple-laser-shot-01_AF1019C9.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="4030404899" Name="Play_Explosion" DurationType="OneShot" DurationMin="0.768" DurationMax="0.768">
+					<MediaRefs>
+						<MediaRef Id="700600252"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3860634315" Name="Play_LaserBlast" DurationType="OneShot" DurationMin="0.83589894" DurationMax="0.93826497">
+					<MediaRefs>
+						<MediaRef Id="1034193192"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2384276567" Name="Play_LoseGame" DurationType="OneShot" DurationMin="2.625" DurationMax="2.625">
+					<MediaRefs>
+						<MediaRef Id="452989921"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2932040671" Name="Play_Music" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="925908927"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="152276835" Name="Play_PickupItem" DurationType="OneShot" DurationMin="0.9545" DurationMax="0.9545">
+					<MediaRefs>
+						<MediaRef Id="576495239"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="281154517" Name="Play_UIQuit" DurationType="OneShot" DurationMin="0.534375" DurationMax="0.534375">
+					<MediaRefs>
+						<MediaRef Id="945030603"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3646906820" Name="Play_UIStart" DurationType="OneShot" DurationMin="0.25395834" DurationMax="0.25395834">
+					<MediaRefs>
+						<MediaRef Id="917611463"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{2CEE5C8B-2536-322E-5A18-2EB9F3F533DE}</FileHash>
+</SoundBanksInfo>

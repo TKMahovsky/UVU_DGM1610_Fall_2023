@@ -4,7 +4,7 @@ using UnityEngine.Events;
 
 public class MatchBehaviour : IDContainerBehaviour
 {
-    public UnityEvent matchEvent, noMatchEvent, noMatchDelayedEvent;
+    public UnityEvent matchEvent, matchDelayedEvent, noMatchEvent, noMatchDelayedEvent;
     
     private IEnumerator OnTriggerEnter(Collider other)
     {
@@ -16,6 +16,8 @@ public class MatchBehaviour : IDContainerBehaviour
         if (otherID == idObj)
         {
             matchEvent.Invoke();
+            yield return new WaitForSeconds(0.01f);
+            matchDelayedEvent.Invoke();
         }
         else
         {
